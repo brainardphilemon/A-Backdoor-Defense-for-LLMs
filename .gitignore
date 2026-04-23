@@ -6,3 +6,13 @@
 .idea
 */.idea
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data
+*.pkl
+*.log
+

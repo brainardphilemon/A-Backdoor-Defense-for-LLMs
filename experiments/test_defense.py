@@ -132,7 +132,7 @@ if __name__ == '__main__':
 
     LM = GPT2LM(use_tf=False, device='cuda' if torch.cuda.is_available() else 'cpu')
     data_selected = args.data
-    model = torch.load(args.model_path)
+    model = torch.load(args.model_path, weights_only=False)
     if torch.cuda.is_available():
         model.cuda()
     packDataset_util = packDataset_util_bert()
