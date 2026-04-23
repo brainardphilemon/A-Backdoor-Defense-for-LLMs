@@ -1,5 +1,8 @@
-# ONION
-Official implementation of the EMNLP 2021 paper "[ONION: A Simple and Effective Defense Against Textual Backdoor Attacks](https://arxiv.org/abs/2011.10369)". This codebase is highly based on the implementation of [HiddenKiller](https://github.com/thunlp/HiddenKiller).
+# A Backdoor Defense for LLMs (Extension of ONION)
+
+This repository is an extension of the work presented in the EMNLP 2021 paper "[ONION: A Simple and Effective Defense Against Textual Backdoor Attacks](https://arxiv.org/abs/2011.10369)". 
+
+Building upon the original ONION implementation, this project explores advanced defense strategies, including **Leave-One-Out (LOO) Embedding Shift** and **Early-Layer analysis**, to enhance the detection and mitigation of textual backdoor triggers in Large Language Models (LLMs).
 
 The `data` folder contains some of our experimented clean data and rare words based poisoned data (BadNets). The poisoning rate is 5%. 
 
